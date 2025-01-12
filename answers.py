@@ -1,45 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "9162": "19000",
-    "9164": "18000",
-    "9166": "12000",
-    "9168": "24000",
-    "9163": "39000",
-    "9165": "24000",
-    "9170": "17000",
-    "9167": "17000",
-    "9169": "16000",
-    "9171": "896000"
+    "9213": "1058000",
+    "9214": "108000",
+    "9216": "11000",
+    "9212": "141000",
+    "9219": "44000",
+    "9218": "72000",
+    "9215": "11000",
+    "9217": "13000",
+    "9220": "18000",
+    "9221": "379000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "9152": "Pu Ru",
-    "9153": "Qi Baishi",
-    "9155": "Jeff Koons",
-    "9160": "Zeng Fanzhi",
-    "9159": "Lee Ufan",
-    "9154": "Damien Hirst",
-    "9156": "Dana Schutz",
-    "9157": "Gerhard Richter",
-    "9158": "Antony Gormley",
-    "9161": "George Condo"
+    "9206": "Qi Gong",
+    "9202": "Qi Baishi",
+    "9207": "Damien Hirst",
+    "9203": "Pu Ru",
+    "9204": "Li Keran",
+    "9205": "Bernard Buffet",
+    "9208": "Kaws",
+    "9209": "Gerhard Richter",
+    "9210": "Takashi Murakami",
+    "9211": "Ed Ruscha"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "9150": "$134.7 million",
-    "9143": "$205.6 million",
-    "9142": "$851.3 million",
-    "9145": "$552.6 million",
-    "9144": "$453.4 million",
-    "9146": "$545.1 million",
-    "9147": "$937.8 million",
-    "9148": "$252.8 million",
-    "9149": "$5.5 billion",
-    "9151": "$822.6 million"
+    "9192": "$205.6 million",
+    "9198": "$48.8 million",
+    "9200": "$937.8 million",
+    "9193": "$851.3 million",
+    "9197": "$142.2 million",
+    "9196": "$96.5 million",
+    "9194": "$1.2 billion",
+    "9195": "$900.5 million",
+    "9199": "$545.1 million",
+    "9201": "$170.2 million"
 }
     return answers.get(str(card_id), None)
