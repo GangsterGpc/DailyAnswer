@@ -1,45 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "9364": "205000",
-    "9363": "125000",
-    "9362": "512000",
-    "9365": "43000",
-    "9367": "370000",
-    "9370": "34000",
-    "9368": "29000",
-    "9366": "41000",
-    "9369": "800000",
-    "9371": "13000"
+    "9412": "57000",
+    "9413": "23000",
+    "9414": "141000",
+    "9418": "29000",
+    "9415": "311000",
+    "9417": "261000",
+    "9420": "257000",
+    "9416": "190000",
+    "9421": "91000",
+    "9419": "31000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "9352": "Chu Teh-Chun",
-    "9355": "Kaws",
-    "9353": "Zeng Fanzhi",
-    "9354": "Pablo Picasso",
-    "9359": "Lee Ufan",
-    "9356": "Fernand Leger",
-    "9360": "Pu Ru",
-    "9357": "Andy Warhol",
-    "9358": "Ernst Ludwig Kirchner",
-    "9361": "Norman Rockwell"
+    "9403": "Donald Judd",
+    "9407": "Pablo Picasso",
+    "9402": "Lucio Fontana",
+    "9404": "Marc Chagall",
+    "9409": "Yayoi Kusama",
+    "9405": "Ren\u00e9 Magritte",
+    "9406": "Wu Guanzhong",
+    "9410": "Paul Gauguin",
+    "9408": "Lee Ufan",
+    "9411": "Joan Mitchell"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "9347": "$453.5 million",
-    "9346": "$1.4 billion",
-    "9345": "$759.7 million",
-    "9348": "$1.2 billion",
-    "9349": "$205.6 million",
-    "9350": "$2.4 billion",
-    "9351": "$1.2 billion",
-    "9344": "$1.8 billion",
-    "9342": "$3.1 billion",
-    "9343": "$778.2 million"
+    "9392": "$1.8 billion",
+    "9393": "$460.1 million",
+    "9394": "$140.9 million",
+    "9396": "$205.6 million",
+    "9395": "$851.3 million",
+    "9397": "$49.0 million",
+    "9398": "$1.2 billion",
+    "9399": "$350.2 million",
+    "9400": "$1.2 billion",
+    "9401": "$550.9 million"
 }
     return answers.get(str(card_id), None)
