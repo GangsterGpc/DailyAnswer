@@ -1,45 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "9468": "30000",
-    "9470": "11000",
-    "9462": "2600000",
-    "9464": "48000",
-    "9463": "6669000",
-    "9465": "286000",
-    "9471": "13000",
-    "9467": "34000",
-    "9469": "17000",
-    "9466": "46000"
+    "9513": "29000",
+    "9512": "28000",
+    "9514": "538000",
+    "9517": "120000",
+    "9515": "33000",
+    "9516": "92000",
+    "9520": "342000",
+    "9518": "166000",
+    "9519": "12000",
+    "9521": "61000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "9457": "Pierre Bonnard",
-    "9458": "Qi Gong",
-    "9453": "Yoshitomo Nara",
-    "9459": "Zhou Chunya",
-    "9461": "Huang Zhou",
-    "9452": "Lin Fengmian",
-    "9460": "Pu Ru",
-    "9454": "Jean-Michel Basquiat",
-    "9455": "Pablo Picasso",
-    "9456": "Alexander Calder"
+    "9511": "Huang Zhou",
+    "9502": "Qi Gong",
+    "9503": "Henri Matisse",
+    "9504": "Lee Ufan",
+    "9505": "Zhang Daqian",
+    "9508": "Joan Mitchell",
+    "9507": "Wassily Kandinsky",
+    "9506": "David Hockney",
+    "9510": "Sanyu",
+    "9509": "Guan Liang"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "9451": "$1.2 billion",
-    "9450": "$759.7 million",
-    "9443": "$851.3 million",
-    "9444": "$220.4 million",
-    "9447": "$505.2 million",
-    "9445": "$36.2 million",
-    "9446": "$796.4 million",
-    "9448": "$3.2 billion",
-    "9442": "$205.6 million",
-    "9449": "$840.9 million"
+    "9492": "$205.6 million",
+    "9494": "$385.5 million",
+    "9493": "$49.0 million",
+    "9496": "$13.0 billion",
+    "9495": "$545.1 million",
+    "9497": "$107.7 million",
+    "9498": "$1.0 billion",
+    "9500": "$2.1 billion",
+    "9499": "$350.2 million",
+    "9501": "$2.4 billion"
 }
     return answers.get(str(card_id), None)
