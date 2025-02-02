@@ -1,44 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "10213": "29000",
-    "10212": "36000",
-    "10214": "19000",
-    "10220": "22000",
-    "10216": "36000",
-    "10215": "74000",
-    "10218": "96000",
-    "10219": "15000",
-    "10217": "26000",
-    "10221": "78000"
+    "10313": "10000",
+    "10317": "31000",
+    "10318": "11000",
+    "10315": "35000",
+    "10314": "666000",
+    "10319": "116000",
+    "10321": "48000",
+    "10316": "53000",
+    "10320": "189000",
+    "10312": "446000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "10202": "Huang Binhong",
-    "10203": "Andy Warhol",
-    "10205": "Sam Francis",
-    "10204": "Guan Liang",
-    "10206": "Qi Baishi",
-    "10207": "Sanyu",
-    "10210": "Robert Combas",
-    "10208": "Wu Guanzhong",
-    "10209": "Lin Fengmian"
+    "10303": "Pierre Soulages",
+    "10305": "Pablo Picasso",
+    "10304": "Georges Braque",
+    "10302": "Qi Baishi",
+    "10306": "Andy Warhol",
+    "10310": "Zhang Daqian",
+    "10309": "Sanyu",
+    "10311": "Wu Hufan",
+    "10307": "Pu Ru",
+    "10308": "Zao Wou-Ki"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "10196": "$3.1 billion",
-    "10192": "$228.2 million",
-    "10193": "$2.5 billion",
-    "10194": "$705.6 million",
-    "10197": "$205.6 million",
-    "10195": "$603.8 million",
-    "10201": "$7.6 billion",
-    "10200": "$3.2 billion",
-    "10198": "$427.2 million",
-    "10199": "$108.6 million"
+    "10292": "$13.0 billion",
+    "10293": "$205.6 million",
+    "10295": "$893.7 million",
+    "10294": "$550.9 million",
+    "10301": "$603.8 million",
+    "10297": "$562.2 million",
+    "10296": "$767.3 million",
+    "10298": "$229.6 million",
+    "10299": "$1.0 billion",
+    "10300": "$1.2 billion"
 }
     return answers.get(str(card_id), None)
