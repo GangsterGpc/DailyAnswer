@@ -1,45 +1,45 @@
 
 def get_price_prediction_answer(card_id):
     answers = {
-    "10364": "30000",
-    "10363": "49000",
-    "10366": "15000",
-    "10365": "13000",
-    "10367": "154000",
-    "10370": "13000",
-    "10369": "201000",
-    "10368": "30000",
-    "10371": "29000",
-    "10362": "153000"
+    "10464": "48000",
+    "10467": "23000",
+    "10466": "178000",
+    "10469": "31000",
+    "10471": "107000",
+    "10470": "27000",
+    "10462": "44000",
+    "10463": "34000",
+    "10465": "263000",
+    "10468": "27000"
 }
     return answers.get(str(card_id), None)
 
 def get_who_is_the_artist_answer(card_id):
     answers = {
-    "10354": "Wayne Thiebaud",
-    "10352": "Rudolf Stingel",
-    "10357": "Lee Ufan",
-    "10355": "Xu Beihong",
-    "10353": "Qi Baishi",
-    "10359": "Henry Moore",
-    "10358": "Pu Ru",
-    "10356": "Li Keran",
-    "10360": "Huang Zhou",
-    "10361": "Ren\u00e9 Magritte"
+    "10452": "Zhang Daqian",
+    "10457": "Alexander Calder",
+    "10453": "Pablo Picasso",
+    "10454": "Takashi Murakami",
+    "10455": "Sanyu",
+    "10456": "George Condo",
+    "10459": "Li Keran",
+    "10461": "Wu Changshuo",
+    "10458": "Henry Moore",
+    "10460": "Pu Ru"
 }
     return answers.get(str(card_id), None)
 
 def get_artist_market_value_answer(card_id):
     answers = {
-    "10342": "$107.7 million",
-    "10343": "$815.6 million",
-    "10344": "$1.0 billion",
-    "10347": "$560.3 million",
-    "10346": "$257.0 million",
-    "10345": "$3.1 billion",
-    "10351": "$510.8 million",
-    "10349": "$205.6 million",
-    "10348": "$2.4 billion",
-    "10350": "$7.6 billion"
+    "10442": "$3.2 billion",
+    "10443": "$205.6 million",
+    "10445": "$427.2 million",
+    "10444": "$900.0 million",
+    "10446": "$1.8 billion",
+    "10447": "$1.0 billion",
+    "10448": "$3.6 billion",
+    "10449": "$893.7 million",
+    "10450": "$330.8 million",
+    "10451": "$13.0 billion"
 }
     return answers.get(str(card_id), None)
